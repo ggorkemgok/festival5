@@ -1,0 +1,61 @@
+/* Here Styling for the Hero */
+.image-container {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    margin: 0%;
+    box-shadow: 0 10px 50px black;
+}
+
+.image-container>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Note: Add media queries for the text to make it fit the viewport when the page is smaller. Think about changing targeting the font-size of the text. */
+
+.image-text {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    font-size: 5vh;
+    color: #E8AA42;
+    text-align: center;
+}
+
+.image-text h2 {
+    -webkit-text-stroke: 1px #025464;
+}
+
+.background {
+    width: auto;
+    height: 100vh;
+    background-color: #E57C23;
+    position: relative;
+}
+
+body {
+    margin: 0px;
+}
+
+.date {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3vw;
+    color: #025464;
+}
+
+@media (max-width: 800px) {
+    .date {
+    font-size: 6vw; }
+}
+
+/* ----------------- Below Styling for the dates -------------------- */
+
+.date-container {
+    width: 100%;
+    height: 50vh;
+    background-color: #E8AA42;
+}
